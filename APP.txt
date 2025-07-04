@@ -1,0 +1,25 @@
+create виртуальной вреды: python -m venv venv (создали) venv\Scripts\activate (активировали) diactivate 
+
+
+
+tех. документация для API: https://docs.google.com/document/d/
+Используйте формат README.md для корневого описания проекта.
+Внешние библиотеки и зависимости следует перечислять в файле, таком как requirements.txt 
+pip freeze > requirements.txt (скачать библио в файл)
+pip install -r requirements.txt (скачать с файла библио)
+
+установить dotenv(для хранения констант): pip install python-dotenv
+
+back: fastAPI, postgress, redis, ORM (sqlalchemy)
+
+front: html, js, css, react
+
+ssl сертификат: Let's Encrypt, cloudflare
+
+nginx - ???
+
+дизайн: figma, leonardo ai
+
+uvicorn server:app --reload
+
+найди в файле: юзернейм телеграма, почта, имя, откуда, чем занимался

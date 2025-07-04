@@ -1,0 +1,99 @@
+1) создаем виртуальное окружение python -m venv myvenv
+2) активируем .\myvenv\Scripts\activate                deactivate
+
+
+
+1) получаем owned_gift_id 
+2) getBusinessAccountGifts = метод, который получает owned_gift_id
+
+1)alembic - миграции
+1.1) Качаем  pip install alembic
+2) alembic init alembic - папка
+2.1) Добавляем Base в env.target_metadata
+2.2) меняем путь к БД в alembic.ini
+3) alembic revision --autogenerate -m "Initial schema"
+
+alembic revision --autogenerate -m "Add referals column"
+, server_default='0'
+alembic upgrade head
+
+alembic downgrade -1 - откатить на 1 версию назад
+
+
+
+VPS Сервер: 15 ГБ 1ГБ RAM
+
+
+2. Установка модуля venv (если ещё нет)
+Если у тебя есть sudo:
+
+bash
+Копировать
+Редактировать
+sudo apt install python3-venv -y
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+Установить (если нужно):
+
+bash
+Копировать
+Редактировать
+apt install screen -y
+Запуск отдельной сессии:
+
+bash
+Копировать
+Редактировать
+screen -S bot
+Внутри окна запускаешь:
+
+bash
+Копировать
+Редактировать
+python3 твой_файл.py
+
+
+
+
+uvicorn bot.ton_dep:app --host 0.0.0.0 --port 8000 --restart
+clo.exe publish http 8080
+
+
+
+
+
+
+
+
+
+45.144.222.211
+ssh root@45.144.222.211
+n7F#VEo6ACiTu+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
